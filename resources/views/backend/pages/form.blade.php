@@ -22,6 +22,15 @@
 		<p class="help-block">This name is used to generate link to page.</p>
 	</div>
 
+	<div class="form-group row">
+		<div class="col-md-12">
+			{!! Form::label('template') !!}
+		</div>
+		<div class="col-md-4">
+			{!! Form::select('template', $templates, null, ['class' => 'form-control']) !!}
+		</div>
+	</div>
+
 	<div class="form-group">
 		{!! Form::label('content') !!}
 		{!! Form::textarea('content', null, ['class' => 'form-control']) !!}
