@@ -139,6 +139,7 @@ return [
         
         Illuminate\Html\HtmlServiceProvider::class,
         Lewis\Presenter\PresenterServiceProvider::class,
+        Baum\Providers\BaumServiceProvider::class,
 
         /*
          * Application Service Providers...
