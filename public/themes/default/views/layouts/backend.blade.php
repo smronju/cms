@@ -3,7 +3,7 @@
 <head>
 	<title>@yield('title') &mdash; The Sunday Sim</title>
 	<link rel="stylesheet" type="text/css" href="{{ theme('css/backend.css') }}">
-	<script type="text/javascript" src="{{ theme('js/simplemde.js') }}"></script>
+	<script type="text/javascript" src="{{ theme('js/all.js') }}"></script>
 </head>
 <body>
 	
