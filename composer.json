@@ -9,7 +9,8 @@
         "laravel/framework": "5.1.*",
         "illuminate/html": "^5.0",
         "lewis/presenter": "^1.0",
-        "baum/baum": "^1.1"
+        "baum/baum": "^1.1",
+        "league/commonmark": "^0.12.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -23,6 +23,8 @@ class User extends Model implements AuthenticatableContract,
      */
     protected $table = 'users';
 
+    protected $dates = ['last_login_at'];
+
     /**
      * The attributes that are mass assignable.
      *

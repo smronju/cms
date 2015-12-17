@@ -11,6 +11,7 @@
 		<div class="container">
 			<div class="navbar-header"><a href="/" class="navbar-brand">The Sunday Sim</a></div>
 			<ul class="nav navbar-nav">
+				<li><a href="{{ route('backend.dashboard') }}">Dashboard</a></li>
 				<li><a href="{{ route('backend.users.index') }}">Users</a></li>
 				<li><a href="{{ route('backend.pages.index') }}">Pages</a></li>
 				<li><a href="{{ route('backend.blog.index') }}">Blog Posts</a></li>

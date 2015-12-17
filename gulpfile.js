@@ -36,4 +36,5 @@ elixir(function(mix) {
 	mix.scripts(['jquery.js', 'bootstrap.js', 'moment.js', 'datetimepicker.js', 'simplemde.js']);
 
     mix.sass('backend.scss');
+    mix.sass('frontend.scss');
 });

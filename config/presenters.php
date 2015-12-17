@@ -16,5 +16,6 @@ return [
 
     SundaySim\Page::class => SundaySim\Presenters\PagePresenter::class,
     SundaySim\Post::class => SundaySim\Presenters\PostPresenter::class,
+    SundaySim\User::class => SundaySim\Presenters\UserPresenter::class,
 
 ];
