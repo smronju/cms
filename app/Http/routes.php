@@ -23,6 +23,6 @@ Route::resource('backend/blog', 'Backend\BlogController', ['except' => 'show']);
 Route::get('backend/dashboard', ['as' => 'backend.dashboard', 'uses' => 'Backend\DashboardController@index']);
 
 Route::get('/', function () {
-	dd($this->route('users'));
-    // return view('welcome');
+	// dd($this->route('users'));
+    return view('welcome');
 });

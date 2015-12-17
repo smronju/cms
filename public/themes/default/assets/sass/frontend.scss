@@ -1,0 +1,9 @@
+@import "bootstrap";
+
+a.navbar-brand{
+	padding: 15px;
+}
+
+.dropdown:hover > .dropdown-menu{
+	display: block;
+}
