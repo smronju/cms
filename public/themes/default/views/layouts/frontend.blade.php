@@ -10,9 +10,25 @@
 		<div class="container">
 			<div class="navbar-header"><a href="/" class="navbar-brand">The Sunday Sim</a></div>
 			<ul class="nav navbar-nav">
-				<li><a href="#">Item 1</a></li>
+				@include('partials.navigation')
+				<!-- <li class="dropdown">
+					<a href="#">Item 1 <span class="caret"></span></a>
+
+					<ul class="dropdown-menu">
+						<li><a href="#">Item 1.1</a></li>
+						<li><a href="#">Item 1.2</a></li>
+						<li class="dropdown-submenu">
+							<a href="#">Item 1.3 <span class="caret right"></span></a>
+
+							<ul class="dropdown-menu">
+								<li><a href="#">Item 1.3.1</a></li>
+								<li><a href="#">Item 1.3.2</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
 				<li><a href="#">Item 2</a></li>
-				<li><a href="#">Item 3</a></li>
+				<li><a href="#">Item 3</a></li> -->
 			</ul>
 		</div>
 	</nav>
