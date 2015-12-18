@@ -23,7 +23,7 @@
 					</tr>
 				@else
 					@foreach ($pages as $page)
-						<tr>
+						<tr class="{{ $page->hidden ? 'warning' : '' }}">
 							<td>{!! $page->linkToPaddedTitle(route('backend.pages.edit', $page->id)) !!}</td>
 							<td><a href="{{ url($page->uri) }}">{{ $page->pretty_uri }}</a></td>
 							<td>{{ $page->name or 'none' }}</td>

@@ -7,6 +7,8 @@ return [
 	],
 
 	'templates' => [
-		'home' => SundaySim\Templates\HomeTemplate::class
+		'home' => SundaySim\Templates\HomeTemplate::class,
+		'blog' => SundaySim\Templates\BlogTemplate::class,
+		'blog.post' => SundaySim\Templates\BlogPostTemplate::class
 	]
 ];

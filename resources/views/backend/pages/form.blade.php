@@ -48,6 +48,14 @@
 			{!! Form::textarea('content', null, ['class' => 'form-control']) !!}
 		</div>
 
+		<div class="checkbox">
+			<label>
+				{!! Form::checkbox('hidden') !!} 
+				Hide page from navigation 
+				<span class="help-block">Checking this will hide the page from navigation. Can only be applied to pages without children.</span>
+			</label>
+		</div>
+
 		{!! Form::submit($page->exists ? 'Save Page' : 'Create New pages', ['class' => 'btn btn-primary']) !!}
 
 	{!! Form::close() !!}
