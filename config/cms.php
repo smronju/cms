@@ -7,6 +7,6 @@ return [
 	],
 
 	'templates' => [
-		'page' => SundaySim\Templates\PageTemplate::class
+		'home' => SundaySim\Templates\HomeTemplate::class
 	]
 ];
